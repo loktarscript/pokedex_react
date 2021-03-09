@@ -1,0 +1,109 @@
+.Header{
+    background-color: #931026; 
+    height: 160px;
+    flex-direction: column;
+    display: flex;
+    color: white;
+    align-items: center;
+    border-radius: 0px 0px 20px 20px;
+    margin-bottom: 20px;
+}
+
+.Header input{
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid black; 
+    font-size:18px;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.DisplaySection{
+    background-color:#8a8a8ac9;
+    height:100%;
+    width: 500px;
+    border-radius: 20px 20px 20px 20px;
+    margin-bottom: 25px;
+}
+
+.fondo-dia{
+    background-image: url('../assets/back_dia.jpg');
+    width: 100%;
+    height: 100%;
+}
+
+.fondo-tarde{
+    background-image: url('../assets/back_tarde.png');
+    width: 100%;
+    height: 100%;
+}
+
+.dex{
+    background-color:rgb(114, 110, 110, 0.1);
+    height: 90%;
+    width: 90%;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.dex img{
+    margin: 10px;
+    height: 250px;
+    width: 250px;
+    border: 1px solid;
+    display:block;
+    margin:auto;
+    background-color:rgb(255, 255, 255, 0.9);
+}
+
+.dex h1{
+    text-align: center;
+}
+
+.dex h3{
+    text-align: center;
+}
+
+.type-pkmn{
+    border-radius: 25px;
+    background-color: red;
+    color: white;
+    width: 200px;
+    display:block;
+    margin:auto;
+}
+
+.pokeContainer{
+    background-color: red;
+    height: 200px;
+    width: 230px;
+    margin:10px;
+    border-radius: 20px;
+    border: 1px solid;
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+}
+  
+td, th {
+    border: 1px solid #999;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.tabla_stats{
+    margin: 10px;
+    height: 250px;
+    width: 250px;
+    /* border: 1px solid; */
+    display:block;
+    margin:auto;
+    /* margin-left: 50%; */
+    /* background-color:rgb(255, 255, 255, 0.9); */
+}
